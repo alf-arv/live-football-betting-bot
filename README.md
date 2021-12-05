@@ -22,7 +22,7 @@ The program fetches all upcoming matches each day. When a match goes live, a new
 #### Creating the slack messaging bot
  - Create a new Slack workspace
  - Go to the [custom integrations panel](https://app.slack.com/apps/manage/custom-integrations), click **Bots**, and click **Add to Slack**
- - Choose a name for your bot, and save the API integration token, and add this to the field 'slack_token' **credentials.json**
+ - Choose a name for your bot, save the API integration token, and add this to the field 'slack_token' **credentials.json**
  - Create channels for *notifications* (required), *error* (optional), and *logs* (optional) and invite your bot to these channels by clicking **Details**, **More** and **Add App**
  - Add the names of your channels into their respective fields in **credentials.json**
 
