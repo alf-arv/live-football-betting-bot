@@ -12,7 +12,9 @@ Have this program observe all live football matches and notify you and your frie
 
 ## How it works
 
-The program fetches all upcoming matches each day. When a match goes live, a new thread is started with a "match observer" that compares live game statistics with live Asian Handicap odds (currently using Bet365) for that specific match. When a situation is evaluated to be good, notifications are sent to a slack channel to notify potential betters. The evaluation algorithm needs to be specified in **Game_observer.py**, I will not share mine. The application is currently set to Central Eastern Time, **CET** with support for **CEST** summer time. The Sportmonks Football API that is used has an incredible amount of information and this program can certainly be expanded for more thorough analyses, though I managed to make a working net positive ROI strategy only using Asian Handicaps.
+The program fetches all upcoming matches each day. When a match goes live, a new thread is started with a "match observer" that compares live game statistics with live Asian Handicap odds (currently using Bet365) for that specific match. When a situation is evaluated to be good, notifications are sent to a slack channel to notify potential betters. The evaluation algorithm needs to be specified in **Game_observer.py**, I will not share mine. The application is currently set to Central Eastern Time, **CET** with support for **CEST** summer time. 
+
+The Sportmonks Football API that is used has an incredible amount of information and this program can certainly be expanded for more thorough analyses, though I managed to make a working net positive ROI strategy only using Asian Handicaps.
 
 ## Prerequisites
 
