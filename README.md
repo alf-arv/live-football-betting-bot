@@ -6,7 +6,7 @@ Have this program observe all live football matches and notify you and your frie
 
 ### Slack notification example
 
-![preview](./readme_assets/preview.png)
+<img src="./readme_assets/preview.png" alt="drawing" width="500"/>
 
 <hr>
 
