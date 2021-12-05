@@ -1,6 +1,6 @@
 # Live football odds watcher
 
-Multithreaded betting bot that compares live match statistics with live odds at your favourite bookmaker. It evaluates the current situation and sends notifications through Slack using the accompanying Slack connector.
+Multithreaded betting bot that compares live match statistics with live odds from your favourite bookmaker. It evaluates the current situation and sends notifications through Slack using the accompanying Slack connector.
 
 Have this program observe all live football matches and notify you and your friends when there is a good betting opportunity!
 
